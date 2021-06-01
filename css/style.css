@@ -1,0 +1,847 @@
+body {
+    background-color: #fff;
+    transition: .3s ease all;
+}
+
+
+/*****************************************************/
+
+
+/***********************Modo Dark*********************/
+
+
+/*****************************************************/
+
+body.dark,
+body.dark .seccion-comida,
+body.dark .seccion-razones {
+    background-color: #000;
+}
+
+
+/* body.dark .seccion-comida .card {
+    background-color: teal;
+    color: #fff;
+} */
+
+body.dark .section-nuestra-historia,
+body.dark .section-nuestra-historia h2,
+body.dark .section-nuestra-historia p,
+body.dark .seccion-servicios,
+body.dark .seccion-servicios a h5,
+body.dark .seccion-galeria .titulo,
+body.dark .seccion-razones,
+body.dark .seccion-razones .row h3,
+body.dark .seccion-razones .row p,
+body.dark .seccion-aplicacion .container .row .textos h5,
+body.dark .seccion-aplicacion .container .row .textos h2,
+body.dark .seccion-aplicacion .container .row .textos p,
+body.dark .seccion-chef,
+body.dark .seccion-clientes,
+body.dark .seccion-clientes p,
+body.dark .seccion-menu .contenido-comida p,
+body.dark .seccion-menu .contenido-comida h3,
+body.dark .seccion-contacto,
+body.dark .seccion-contacto .row .texto h4,
+body.dark .seccion-contacto .row .texto p,
+body.dark .seccion-contacto .titulo h2 {
+    color: #fff;
+}
+
+body.dark .seccion-menu ul li a {
+    border: none;
+    color: #fff;
+}
+
+header {
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+}
+
+.navbar {
+    background: #212121 !important;
+    transition: all 0.2s;
+}
+
+
+/* header nav {
+    background-color: transparent;
+} */
+
+nav .logo h2 {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #fff;
+}
+
+header nav ul li a {
+    margin-left: 20px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover,
+nav .logo h2:hover {
+    color: #FBAF32;
+}
+
+.section-header {
+    width: 100%;
+    padding: 200px 0;
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, hsla(197, 38%, 28%, 0.544), #203a4379, hsla(198, 43%, 11%, 0.673));
+    background: linear-gradient(to right, hsla(197, 38%, 28%, 0.578), hsla(195, 35%, 19%, 0.564), hsla(198, 44%, 11%, 0.639)), url(../images/banner-min.jpg);
+    /* min-height: 30vh; */
+    background-size: cover;
+    background-position: center;
+    color: #132743;
+    font-family: 'Dosis', sans-serif;
+    /* font-weight: bold; */
+}
+
+
+/*****************************************************/
+
+
+/***************Section header-nosotros***************/
+
+
+/*****************************************************/
+
+.section-header-nosotros {
+    width: 100%;
+    padding: 150px 0;
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, hsla(197, 38%, 28%, 0.544), #203a4379, hsla(198, 43%, 11%, 0.673));
+    background: linear-gradient(to right, hsla(197, 38%, 28%, 0.578), hsla(195, 35%, 19%, 0.564), hsla(198, 44%, 11%, 0.639)), url(../images/blogsingle-min.jpg);
+    /* min-height: 80vh; */
+    background-size: cover;
+    background-position: center;
+    color: #132743;
+    font-family: 'Dosis', sans-serif;
+    background-attachment: fixed
+    /* font-weight: bold; */
+}
+
+.section-header-nosotros h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+/*****************************************************/
+
+
+/******************Section header*********************/
+
+
+/*****************************************************/
+
+.section-header .container .row h1 {
+    font-size: 35px;
+    font-family: 'Ribeye Marrow', sans-serif;
+    font-weight: 100;
+    color: #fff;
+}
+
+.section-header .container .row h2 {
+    font-size: 25px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: 600;
+}
+
+.section-header .container .row p {
+    color: #fff;
+    font-size: 20px;
+}
+
+.section-header .container .row .botones button {
+    padding: 18px;
+    font-size: 20px;
+    margin-right: 15px;
+}
+
+
+/*****************************************************/
+
+
+/**************Section Nuestra Historia***************/
+
+
+/*****************************************************/
+
+.section-nuestra-historia,
+.seccion-comida,
+.seccion-servicios,
+.seccion-galeria,
+.seccion-razones,
+.seccion-aplicacion,
+.seccion-chef,
+.seccion-hechos,
+.seccion-menu,
+.seccion-contacto {
+    font-family: 'Dosis', sans-serif;
+    margin-top: 120px;
+}
+
+.section-nuestra-historia .texto {
+    padding: 10px 0;
+}
+
+.section-nuestra-historia h2 {
+    font-weight: bold;
+    color: #3B3663;
+}
+
+.section-nuestra-historia p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #3B3663;
+}
+
+.section-nuestra-historia button {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+/**********************************/
+
+
+/***********Seccion comida***********/
+
+
+/*********************************/
+
+.seccion-comida,
+.seccion-razones {
+    background-color: #f4f4f4;
+    padding: 150px 0;
+}
+
+.seccion-comida .card {
+    padding: 25px 0;
+}
+
+.seccion-comida a {
+    text-decoration: none;
+    color: #3B3663;
+}
+
+.seccion-comida a h4:hover {
+    color: #FBAF32;
+}
+
+.seccion-comida h4 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.seccion-comida p {
+    font-size: 18px;
+}
+
+.seccion-comida button {
+    font-weight: bold;
+}
+
+
+/**********************************/
+
+
+/******Seccion servicios***********/
+
+
+/*********************************/
+
+.seccion-servicios {
+    padding: 150px 0;
+}
+
+.seccion-servicios .ingredientes {
+    padding: 30px 10px;
+}
+
+.seccion-servicios .ingredientes a i {
+    font-size: 30px;
+    color: #FBAF32;
+}
+
+.seccion-servicios .ingredientes a h5 {
+    margin-left: 15px;
+    font-size: 26px;
+    color: #132743;
+    font-weight: bold;
+}
+
+.seccion-servicios .ingredientes a h5:hover {
+    color: #FBAF32;
+}
+
+.seccion-servicios .ingredientes a {
+    text-decoration: none;
+}
+
+.seccion-servicios .ingredientes p {
+    font-size: 20px;
+}
+
+
+/**********************************/
+
+
+/***********Seccion Banner*********/
+
+
+/*********************************/
+
+.seccion-banner {
+    width: 100%;
+    padding: 200px 0;
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, hsla(197, 38%, 28%, 0.544), #203a4379, hsla(198, 43%, 11%, 0.673));
+    background: linear-gradient(to right, hsla(197, 38%, 28%, 0.578), hsla(195, 35%, 19%, 0.564), hsla(198, 44%, 11%, 0.639)), url(../images/banner-min.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #132743;
+    font-family: 'Dosis', sans-serif;
+    /* margin: 50px 0; */
+    background-attachment: fixed;
+}
+
+.seccion-banner .row h2 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #fff;
+    padding: 15px 0;
+}
+
+.seccion-banner .row .botones button {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 15px;
+    margin: 0 5px;
+}
+
+
+/* .seccion-banner .row .contenido {} */
+
+.imagen-port {
+    width: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+}
+
+.imagen-port img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hover-galeria {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: hsla(37, 96%, 59%, 0.756);
+    transition: transform .5s;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    color: #fff;
+    font-weight: bold;
+}
+
+.hover-galeria h4 {
+    font-weight: bold;
+}
+
+.hover-galeria img {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    position: relative;
+    left: 35%;
+}
+
+.imagen-port:hover .hover-galeria {
+    transform: scale(1);
+}
+
+
+/**********************************/
+
+
+/***********Seccion Razones********/
+
+
+/*********************************/
+
+.seccion-razones .container .row {
+    padding: 80px 0;
+}
+
+.seccion-razones .row h3 {
+    font-weight: bold;
+    color: #3B3663;
+}
+
+.seccion-razones .row p {
+    font-size: 20px;
+    color: #3B3663;
+}
+
+.seccion-razones .row i {
+    color: #FBAF32;
+}
+
+
+/**********************************/
+
+
+/***********Seccion aplicacion*****/
+
+
+/*********************************/
+
+.seccion-aplicacion .container .row .textos {
+    padding: 5px 30px;
+}
+
+.seccion-aplicacion {
+    margin: 120px 0;
+}
+
+.seccion-aplicacion .container .row .textos h5 {
+    color: #132743;
+    font-size: 20px;
+}
+
+.seccion-aplicacion .container .row .textos h2 {
+    color: #132743;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.seccion-aplicacion .container .row .textos p {
+    color: #132743;
+    font-size: 20px;
+}
+
+.seccion-footer {
+    /* margin-top: 120px; */
+    font-family: 'Dosis', sans-serif;
+}
+
+.seccion-footer footer {
+    background-color: #212121;
+    color: #fff;
+}
+
+.seccion-footer footer .footer-copyright a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/**********************************/
+
+
+/***********Seccion chef***********/
+
+
+/*********************************/
+
+.seccion-chef .row {
+    padding: 60px 0;
+}
+
+.seccion-chef .nombre h6 {
+    font-weight: bold;
+}
+
+.imagen-chef {
+    width: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    /* box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5); */
+}
+
+.imagen-chef img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hover-chef {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    transform: scale(0);
+    background: rgba(251, 174, 50, 0.259);
+    transition: transform .5s;
+    /* display: flex;
+    justify-content: start; */
+    /* text-align: center; */
+    /* flex-direction: column; */
+    color: #fff;
+    font-weight: bold;
+}
+
+.hover-chef p {
+    font-size: 22px;
+    color: #FBAF32;
+}
+
+.hover-chef p {
+    /* padding: 15px; */
+    background-color: #fff;
+    margin-right: 10px;
+    border-radius: 100px;
+}
+
+.hover-chef p i {
+    padding: 15px;
+}
+
+
+/* .hover-chef p i:hover {
+    color: #fff;
+} */
+
+.hover-chef p:hover {
+    background-color: #FBAF32;
+    color: #fff;
+}
+
+.hover-chef h4 {
+    font-weight: bold;
+}
+
+.hover-chef img {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    position: relative;
+    left: 35%;
+}
+
+.imagen-chef:hover .hover-chef {
+    transform: scale(1);
+}
+
+
+/**********************************/
+
+
+/**********Seccion hechos***********/
+
+
+/*********************************/
+
+.seccion-hechos {
+    width: 100%;
+    padding: 100px 0;
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, hsla(197, 38%, 28%, 0.544), #203a4379, hsla(198, 43%, 11%, 0.673));
+    background: linear-gradient(to right, hsla(197, 38%, 28%, 0.578), hsla(195, 35%, 19%, 0.564), hsla(198, 44%, 11%, 0.639)), url(../images/bg-min.jpg);
+    min-height: 50vh;
+    background-size: cover;
+    background-position: center;
+    color: #132743;
+    font-family: 'Dosis', sans-serif;
+    background-attachment: fixed;
+    /* font-weight: bold; */
+    margin: 50px 0;
+    color: #fff;
+}
+
+.seccion-hechos .contenido {
+    text-align: center;
+    padding: 30px 0;
+}
+
+.seccion-hechos .contenido i {
+    font-size: 40px;
+}
+
+.seccion-hechos .contenido h3 {
+    font-size: 50px;
+}
+
+.seccion-hechos .contenido p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.titulo h2 {
+    font-size: 40px;
+}
+
+.titulo p {
+    font-size: 20px;
+}
+
+.seccion-clientes {
+    /* background-color: black; */
+    padding: 120px 0;
+    /* margin: 50px 0; */
+    font-family: 'Dosis', sans-serif;
+}
+
+.seccion-clientes .container .row {
+    margin-top: 25px;
+}
+
+.seccion-clientes .carousel p {
+    font-size: 22px;
+    color: #696687;
+    margin-top: 25px;
+}
+
+.nombre-cliente {
+    margin-top: 50px;
+}
+
+.nombre-cliente img {
+    border-radius: 100px;
+}
+
+.seccion-clientes .carousel .estrellas i {
+    color: #FBAF32;
+}
+
+
+/* span.carousel-control-next-icon, */
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-image: none;
+    background-color: #FBAF32;
+}
+
+.carousel-control-next-icon:after {
+    content: '>';
+    font-size: 35px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.carousel-control-prev-icon:after {
+    content: '<';
+    font-size: 35px;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+/**********************************/
+
+
+/***********Seccion Menu***********/
+
+
+/*********************************/
+
+
+/* .seccion-menu {
+    margin-top: 120px;
+} */
+
+.seccion-menu hr {
+    color: #f8b500;
+    height: 0px;
+    border: 1px dashed;
+}
+
+.seccion-menu ul li a {
+    border: 1px solid #e8e8e8;
+    color: #3b3663;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.seccion-menu .contenido-comida h3 {
+    font-weight: bold;
+    color: #3b3663;
+    font-size: 22px;
+}
+
+.seccion-menu ul li .nav-link .active {
+    background-color: #fff;
+}
+
+.seccion-menu .container .row {
+    margin: 70px 0;
+}
+
+.nav-pills .nav-link.active,
+.show>.nav-pills .nav-link {
+    background: #f8b500 !important;
+    color: #fff;
+}
+
+
+/**********************************/
+
+
+/***********Medias query***********/
+
+
+/*********************************/
+
+.seccion-contacto {
+    margin: 100px 0;
+}
+
+.seccion-contacto form .row .form-control {
+    padding: 30px;
+    margin: 15px 0;
+    background-color: #e8e8e8;
+    border: none;
+}
+
+.seccion-contacto form .row input:focus,
+.seccion-contacto form .row textarea:focus {
+    background-color: #fff;
+}
+
+.seccion-contacto form button {
+    font-weight: bold;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.seccion-contacto .row .texto h4 {
+    font-weight: bold;
+    font-size: 24px;
+    color: #3b3663;
+}
+
+.seccion-contacto .row .texto p {
+    font-size: 20px;
+    color: #696687;
+}
+
+.seccion-contacto .row .texto p i {
+    margin-right: 10px;
+}
+
+.seccion-contacto .titulo h2 {
+    font-size: 36px;
+    color: #3b3663;
+    font-weight: bold;
+}
+
+.seccion-direccion iframe {
+    min-height: 75vh;
+    width: 100%;
+}
+
+.seccion-contacto .row .texto {
+    margin-top: 50px;
+}
+
+
+/**********************************/
+
+
+/***********Modo dark***********/
+
+
+/*********************************/
+
+.switch {
+    background-color: #fff;
+    border-radius: 1000px;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+}
+
+.switch::after {
+    content: "";
+    display: block;
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    background-color: #f1f1f1;
+    top: 0;
+    left: 0;
+    right: unset;
+    border-radius: 100px;
+    transition: .3s ease all;
+}
+
+.switch.active span {
+    color: #f8b500;
+}
+
+.switch.active::after {
+    right: 0;
+    left: unset;
+}
+
+.switch span {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    background: none;
+    color: #000;
+}
+
+
+/**********************************/
+
+
+/***********Medias query***********/
+
+
+/*********************************/
+
+@media(min-width: 992px) {
+    /*navbar*/
+    .navbar {
+        background-color: transparent !important;
+    }
+    .background-scroll-down {
+        background-color: #212121 !important;
+    }
+}
+
+@media(min-width: 576px) {
+    .section-header .container .row h1 {
+        font-size: 70px;
+    }
+    .section-header .container .row h2 {
+        font-size: 45px;
+    }
+    .seccion-banner .row h2 {
+        font-size: 40px;
+    }
+}
+
+@media(min-width: 768px) {
+    .seccion-contacto .row .texto {
+        margin-top: 0;
+    }
+}
